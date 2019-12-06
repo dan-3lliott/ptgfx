@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8f7c038-da6e-41db-b6db-18aa529ae70a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ViewPathwayTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ViewStudentTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ViewStudentTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/darktheme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/lighttheme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ViewStudentNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ptgWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ptgWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewStudentTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewStudentTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/darktheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/darktheme.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575581631512</updated>
-      <workItem from="1575581632654" duration="8769000" />
+      <workItem from="1575581632654" duration="11239000" />
     </task>
     <task id="LOCAL-00001" summary="preserved runtime configuration">
       <created>1575582431975</created>
@@ -91,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575582431975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added tabs, working on styling">
+      <created>1575591427688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575591427688</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="preserved runtime configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="preserved runtime configuration" />
+    <MESSAGE value="added tabs, working on styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tabs, working on styling" />
   </component>
 </project>
