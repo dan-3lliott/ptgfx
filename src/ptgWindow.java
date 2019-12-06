@@ -1,19 +1,20 @@
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class ptgWindow extends Stage {
+    private String style = "stylesheets/darktheme.css";
     public ptgWindow() {
         //set up window
         setTitle("ptg");
         setWidth(1600);
         setHeight(900);
-        //set up tabpane
+        initStyle(StageStyle.UNDECORATED);
+        //set up tabpane and declare tabs
         TabPane mainPane = new TabPane();
-        Tab viewStudentTab = new Tab("View Students", new Label("View all students currently in a pathway."));
-        Tab viewPathwayTab = new Tab("View Pathways", new Label("View all currently available pathways."));
-        //set content of tabs
-
+        ViewStudentTab viewStudentTab = new ViewStudentTab();
+        ViewPathwayTab viewPathwayTab = new ViewPathwayTab();
         //add tabs to tabpane
         mainPane.getTabs().add(viewStudentTab);
         mainPane.getTabs().add(viewPathwayTab);
@@ -21,5 +22,6 @@ public class ptgWindow extends Stage {
         mainPane.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
         //wrap tabpane in a scene and add it
         setScene(new Scene(mainPane));
+        getScene().getStylesheets().add(style);
     }
 }
