@@ -1,0 +1,53 @@
+* {
+    -fx-primary: #FFFFFF;
+    -fx-secondary: #000000;
+    -fx-primary-text: #000000;
+    -fx-primary-hover: #878787;
+}
+
+.root {
+    -fx-background-color: -fx-primary;
+    -fx-font-family: Helvetica;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tab {
+    -fx-background-color: -fx-primary;
+    -fx-pref-width: 200;
+    -fx-pref-height: 50;
+    -fx-padding: 0;
+    -fx-border-style: hidden;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-text-alignment: center;
+}
+
+.tab-label {
+    -fx-pref-width: 200;
+    -fx-text-fill: -fx-primary-text;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.tab-header-background {
+    -fx-background-color: -fx-primary;
+}
+
+.tab:hover {
+    -fx-background-color: -fx-primary-hover;
+}
+
+.tab:selected {
+    -fx-border-color: -fx-secondary;
+    -fx-border-style: hidden hidden solid hidden;
+}
+
+.table-view {
+    -fx-background-color: -fx-primary;
+}
+
+.text-field {
+    -fx-pref-columns: 10;
+    -fx-border-radius: 5;
+}

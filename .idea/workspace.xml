@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8f7c038-da6e-41db-b6db-18aa529ae70a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-11.0.2/lib/mysql-connector.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ptgfx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ptgfx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ViewStudentTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewStudentTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ptgWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ptgWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/lighttheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/lighttheme.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575581631512</updated>
-      <workItem from="1575581632654" duration="19893000" />
+      <workItem from="1575581632654" duration="20736000" />
     </task>
     <task id="LOCAL-00001" summary="preserved runtime configuration">
       <created>1575582431975</created>
@@ -123,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575601196435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="database connectivity for students table">
+      <created>1575606417199</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575606417199</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +149,7 @@
     <MESSAGE value="added tabs, working on styling" />
     <MESSAGE value="working on styling" />
     <MESSAGE value="refined viewstudenttable" />
-    <option name="LAST_COMMIT_MESSAGE" value="refined viewstudenttable" />
+    <MESSAGE value="database connectivity for students table" />
+    <option name="LAST_COMMIT_MESSAGE" value="database connectivity for students table" />
   </component>
 </project>

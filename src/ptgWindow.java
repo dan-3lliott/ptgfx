@@ -4,7 +4,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class ptgWindow extends Stage {
-    private String style = "stylesheets/darktheme.css";
+    private String style = "stylesheets/darktheme.css"; //"stylesheets/lighttheme.css";
     public ptgWindow() {
         //set up window
         setTitle("ptg");
@@ -22,6 +22,7 @@ public class ptgWindow extends Stage {
         mainPane.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
         //wrap tabpane in a scene and add it
         setScene(new Scene(mainPane));
+        //add style to the scene
         getScene().getStylesheets().add(style);
     }
 }
