@@ -1,7 +1,7 @@
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.skin.TableHeaderRow;
+import java.util.Objects;
 
 public class ViewStudentTable extends TableView {
     public ViewStudentTable() {
@@ -16,7 +16,7 @@ public class ViewStudentTable extends TableView {
         pathwayIdColumn.setCellValueFactory(new PropertyValueFactory<>("pathwayId"));
         //add columns
         getColumns().addAll(nameColumn, idColumn, pathwayIdColumn);
-        //populate with data
-        getItems().addAll(Database.students());
+        //populate with data from database
+        getItems().addAll(Objects.requireNonNull(Database.students()));
     }
 }
