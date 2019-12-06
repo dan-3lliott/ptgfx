@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a8f7c038-da6e-41db-b6db-18aa529ae70a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ptgWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ptgWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/lighttheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/lighttheme.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575581631512</updated>
-      <workItem from="1575581632654" duration="20736000" />
+      <workItem from="1575581632654" duration="20933000" />
     </task>
     <task id="LOCAL-00001" summary="preserved runtime configuration">
       <created>1575582431975</created>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575606417199</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="worked on lighttheme">
+      <created>1575607260154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575607260154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +155,7 @@
     <MESSAGE value="working on styling" />
     <MESSAGE value="refined viewstudenttable" />
     <MESSAGE value="database connectivity for students table" />
-    <option name="LAST_COMMIT_MESSAGE" value="database connectivity for students table" />
+    <MESSAGE value="worked on lighttheme" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on lighttheme" />
   </component>
 </project>
