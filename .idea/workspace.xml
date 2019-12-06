@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8f7c038-da6e-41db-b6db-18aa529ae70a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafxlib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/darktheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/darktheme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ptgfx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ptgfx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewStudentTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewStudentTable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,13 +35,14 @@
   </component>
   <component name="ProjectId" id="1Ua4z6aL1j6tdYS3OWQw1JEuPtq" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575581631512</updated>
-      <workItem from="1575581632654" duration="13569000" />
+      <workItem from="1575581632654" duration="17849000" />
     </task>
     <task id="LOCAL-00001" summary="preserved runtime configuration">
       <created>1575582431975</created>
@@ -99,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575593907111</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working on styling">
+      <created>1575596218090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575596218090</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
