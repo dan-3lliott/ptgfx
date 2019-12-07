@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8f7c038-da6e-41db-b6db-18aa529ae70a" name="Default Changelist" comment="added database pathway connectivity">
-      <change afterPath="$PROJECT_DIR$/src/Pathway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ViewPathwayTable.java" afterDir="false" />
+    <list default="true" id="a8f7c038-da6e-41db-b6db-18aa529ae70a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ViewPathwayTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewPathwayTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/darktheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/darktheme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/lighttheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/lighttheme.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575581631512</updated>
       <workItem from="1575581632654" duration="21670000" />
-      <workItem from="1575669253297" duration="13329000" />
+      <workItem from="1575669253297" duration="14030000" />
     </task>
     <task id="LOCAL-00001" summary="preserved runtime configuration">
       <created>1575582431975</created>
@@ -152,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575691375839</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added database pathway connectivity">
+      <created>1575693498359</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575693498359</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
