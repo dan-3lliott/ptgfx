@@ -5,7 +5,7 @@
 # .idea/**/workspace.xml so that the runtime configuration gets saved
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
-.idea/**/dictionaries
+# .idea/**/dictionaries so that splashscreen doesn't get flagged every single time
 .idea/**/shelf
 
 # Generated files

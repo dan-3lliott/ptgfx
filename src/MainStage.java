@@ -3,13 +3,15 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class ptgWindow extends Stage {
+public class MainStage extends Stage {
     private String style = "stylesheets/darktheme.css"; //"stylesheets/lighttheme.css";
-    public ptgWindow() {
+    private static final int width = 1600;
+    private static final int height = 900;
+    public MainStage() {
         //set up window
-        setTitle("ptg");
-        setWidth(1600);
-        setHeight(900);
+        setTitle("Vision");
+        setWidth(width);
+        setHeight(height);
         initStyle(StageStyle.UNDECORATED);
         //set up tabpane and declare tabs
         TabPane mainPane = new TabPane();
