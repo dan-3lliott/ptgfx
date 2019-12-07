@@ -22,6 +22,23 @@ public class Database {
             return null;
         }
     }
+    public static ArrayList<Pathway> pathways() {
+        ArrayList<Pathway> pathways = new ArrayList<>();
+        try {
+            //get results set from pathways table
+            ResultSet rs = getConnection().createStatement().executeQuery("SELECT * FROM pathways");
+            while (rs.next()) {
+                //add a new pathway for each row in the pathways table
+                pathways.add(new Pathway(rs.getInt("id"), rs.getString("title")));
+            }
+            return pathways;
+        }
+        catch (Exception e) {
+            //show an alert with the exception message
+            showAlert(e.getLocalizedMessage());
+            return null;
+        }
+    }
     public static Connection getConnection() {
         try {
             //get connection to database, return it for access
@@ -37,7 +54,6 @@ public class Database {
     public static void showAlert(String text) {
         //create a new alert
         Alert alert = new Alert(Alert.AlertType.WARNING);
-        System.out.println("new alert");
         //set text
         alert.setHeaderText(text);
         alert.setContentText("Please contact the developer of this program for assistance.");

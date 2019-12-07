@@ -44,7 +44,8 @@
 }
 
 .table-view {
-    -fx-background-color: -fx-primary;
+    -fx-header-color: -fx-secondary;
+    -fx-selection-bar: -fx-primary;
 }
 
 .text-field {
