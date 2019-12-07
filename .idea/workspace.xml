@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a8f7c038-da6e-41db-b6db-18aa529ae70a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575581631512</updated>
       <workItem from="1575581632654" duration="21670000" />
-      <workItem from="1575669253297" duration="14030000" />
+      <workItem from="1575669253297" duration="15115000" />
     </task>
     <task id="LOCAL-00001" summary="preserved runtime configuration">
       <created>1575582431975</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575693498359</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added 1px border to splash screen">
+      <created>1575694282114</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575694282114</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +191,7 @@
     <MESSAGE value="added sql file for db setup" />
     <MESSAGE value="added preloading functionality" />
     <MESSAGE value="added database pathway connectivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="added database pathway connectivity" />
+    <MESSAGE value="added 1px border to splash screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 1px border to splash screen" />
   </component>
 </project>

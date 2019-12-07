@@ -2,6 +2,7 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    Stage stage = new MainStage();
     public static void main(String[] args) {
         //set up preloader/splashscreen
         System.setProperty("javafx.preloader", "Splashscreen");
@@ -11,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) {
         //set and show window
-        stage = new MainStage();
+        stage = this.stage;
         stage.show();
     }
 }
