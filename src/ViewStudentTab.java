@@ -8,7 +8,7 @@ import javafx.scene.layout.VBox;
 public class ViewStudentTab extends Tab {
     public ViewStudentTab() {
         //set up tab
-        setText("View Students");
+        setText("Students");
         //create table
         ViewStudentTable viewStudentTable = new ViewStudentTable();
         VBox.setVgrow(viewStudentTable, Priority.ALWAYS);

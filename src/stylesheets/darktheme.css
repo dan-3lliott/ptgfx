@@ -48,7 +48,26 @@
     -fx-selection-bar: -fx-primary;
 }
 
+.table-view .label {
+    -fx-text-fill: -fx-primary;
+}
+
 .text-field {
     -fx-pref-columns: 10;
     -fx-border-radius: 5;
+}
+
+.button {
+    -fx-background-color: -fx-primary;
+    -fx-border-radius: 5;
+    -fx-border-color: -fx-secondary;
+    -fx-text-fill: -fx-primary-text;
+}
+
+.button:hover {
+    -fx-background-color: -fx-primary-hover;
+}
+
+.label {
+    -fx-text-fill: -fx-primary-text;
 }

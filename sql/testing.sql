@@ -18,7 +18,7 @@ CREATE TABLE Pathways (
 );
 
 CREATE TABLE Students (
-    id int NOT NULL,
+    id int NOT NULL UNIQUE,
     name varchar(255),
     grade int NOT NULL,
     pathwayId int NOT NULL,
@@ -26,11 +26,14 @@ CREATE TABLE Students (
     FOREIGN KEY (pathwayId) REFERENCES Pathways(id)
 );
 
-INSERT INTO Pathways (title, mathReq, scienceReq, govReq)
-VALUES ('Utah Aerospace Pathways', 4.00, 6.00, 0.50);
+INSERT INTO Pathways (title, languageReq, mathReq, scienceReq, socialReq, govReq, healthReq, peReq, fitnessReq, artsReq, cteReq, compReq, financialReq, electiveReq) VALUES #no need to insert into the id column as it is auto incremented from 1
+('Utah Aerospace Pathway', 4.00, 6.00, 4.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 2.00, 0.50, 0.00, 8.00),
+('Regents', 4.00, 4.00, 4.00, 3.00, 0.50, 0.50, 0.50, 0.50, 2.00, 0.00, 0.00, 0.00, 8.00),
+('Medical Forensics', 4.00, 3.00, 4.00, 0.00, 0.00, 1.00, 0.50, 1.00, 0.00, 2.00, 0.00, 0.00, 8.00),
+('Culinary Arts', 1.00, 1.00, 1.00, 1.00, 0.50, 0.50, 0.50, 0.50, 0.50, 2.00, 0.00, 0.00, 8.00);
 
-INSERT INTO Students
-VALUES (9632019, 'Daniel Elliott', 12, 1);
-
-INSERT INTO Pathways (title, languageReq, mathReq, scienceReq)
-VALUES ('Regents', 4.00, 4.00, 4.00);
+INSERT INTO Students VALUES
+(9632013, 'Daniel Elliott', 12, 1),
+(9625463, 'Jackson Elder', 12, 1),
+(9563743, 'Zach Greenberg', 12, 2),
+(9645342, 'Stefan Todorov', 12, 3);
