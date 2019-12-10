@@ -1,5 +1,3 @@
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -18,11 +16,9 @@ public class ViewPathwayTab extends Tab {
         Button addButton = new Button("Add Pathway");
         addButton.setMaxWidth(500);
         //define action for addButton
-        addButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-                AddPathwayStage addPathwayStage = new AddPathwayStage();
-                addPathwayStage.show();
-            }
+        addButton.setOnAction(e -> {
+            AddPathwayStage addPathwayStage = new AddPathwayStage();
+            addPathwayStage.show();
         });
         //set up vbox
         VBox vBox = new VBox();
